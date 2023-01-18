@@ -3,7 +3,7 @@ from pythonforandroid.recipe import CythonRecipe
 
 class ScryptRecipe(CythonRecipe):
 
-    version = '0.8.6'
+    version = '0.8.20'
     url = 'https://bitbucket.org/mhallin/py-scrypt/get/v{version}.zip'
     depends = ['setuptools', 'openssl']
     call_hostpython_via_targetpython = False
